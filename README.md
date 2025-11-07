@@ -1,0 +1,1 @@
+# Real-Time-Stock-Market-Trend-Detection-using-News-Sentiment
