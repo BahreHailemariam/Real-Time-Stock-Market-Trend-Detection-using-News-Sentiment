@@ -7,3 +7,12 @@ By analyzing live financial news streams, social media posts, and headlines, the
 The pipeline integrates **text analytics, sentiment modeling, and visualization dashboards** for data-driven investment insights.
 
 ---
+
+## 🚀 Key Objectives
+- Analyze live financial news and stock market data in real-time.
+- Determine **sentiment polarity** (positive, neutral, negative) using NLP.
+- Correlate sentiment scores with market indicators like price, volume, and volatility.
+- Visualize insights through **Power BI** and **Streamlit** dashboards.
+- Enable real-time alerts for trend shifts or market sentiment changes.
+
+---
