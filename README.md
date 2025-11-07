@@ -16,3 +16,36 @@ The pipeline integrates **text analytics, sentiment modeling, and visualization 
 - Enable real-time alerts for trend shifts or market sentiment changes.
 
 ---
+
+## 🧩 Workflow Summary
+
+### 1. **Data Ingestion**
+- Collect live financial news headlines and articles using APIs (e.g., NewsAPI, Finviz, or Reddit Finance threads).
+- Fetch stock prices and technical indicators using `yfinance` or Alpha Vantage API.
+
+### 2. **Preprocessing**
+- Clean raw text (remove URLs, HTML tags, stopwords, punctuation).
+- Tokenize and normalize text using **NLTK** or **spaCy**.
+- Map each article to its corresponding stock ticker.
+
+### 3. **Sentiment Analysis**
+- Apply pretrained NLP models like **VADER**, **TextBlob**, or **FinBERT** to compute sentiment polarity.
+- Assign sentiment scores:  
+  - Positive → 1  
+  - Neutral → 0  
+  - Negative → -1
+
+### 4. **Feature Engineering**
+- Aggregate sentiment scores per company or time window (e.g., hourly, daily).
+- Merge with market metrics: price change %, volume, and volatility index (VIX).
+
+### 5. **Model Training**
+- Train **LSTM**, **Random Forest**, or **Gradient Boosting** models to predict short-term stock trends.
+- Evaluate performance using **AUC, RMSE, Precision, Recall**.
+
+### 6. **Visualization & Deployment**
+- Real-time dashboards built with:
+  - **Power BI:** Trend visualization, sentiment heatmaps, and KPIs.
+  - **Streamlit:** Interactive prediction app for live sentiment analysis.
+
+---
