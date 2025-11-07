@@ -66,3 +66,34 @@ The pipeline integrates **text analytics, sentiment modeling, and visualization 
 ---
 
 ## 📂 Folder Structure
+```
+RealTime_Stock_Sentiment/
+│
+├── data/
+│ ├── raw/ # Raw news and market data
+│ ├── processed/ # Cleaned, labeled, and merged data
+│ └── features/ # Engineered sentiment features
+│
+├── scripts/
+│ ├── fetch_news.py # Collect live financial news via API
+│ ├── fetch_stocks.py # Download stock market data
+│ ├── preprocess_text.py # Clean and tokenize text data
+│ ├── sentiment_analysis.py # Compute sentiment scores
+│ ├── feature_engineering.py # Combine sentiment and stock metrics
+│ ├── train_model.py # Train predictive models
+│ └── app.py # Streamlit dashboard for real-time prediction
+│
+├── models/
+│ └── sentiment_model.pkl
+│
+├── dashboard/
+│ ├── PowerBI_Report_Spec.md # Power BI report specification
+│ └── visuals/ # Screenshots of key visuals
+│
+├── reports/
+│ └── EDA_Report.ipynb # Data exploration and correlation heatmaps
+│
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
