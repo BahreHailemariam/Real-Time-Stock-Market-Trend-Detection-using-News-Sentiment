@@ -97,3 +97,14 @@ RealTime_Stock_Sentiment/
 ├── README.md
 └── LICENSE
 ```
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/RealTime_Stock_Sentiment.git
+cd RealTime_Stock_Sentiment
+```
