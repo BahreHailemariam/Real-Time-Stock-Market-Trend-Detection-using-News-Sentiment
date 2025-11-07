@@ -49,3 +49,20 @@ The pipeline integrates **text analytics, sentiment modeling, and visualization 
   - **Streamlit:** Interactive prediction app for live sentiment analysis.
 
 ---
+
+## 🧠 Tech Stack
+
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Data Source** | NewsAPI, Alpha Vantage, yfinance |
+| **Language** | Python 3.10+ |
+| **NLP Libraries** | NLTK, TextBlob, spaCy, Transformers (FinBERT) |
+| **Data Processing** | pandas, numpy, scikit-learn |
+| **Visualization** | Power BI, Matplotlib, Seaborn |
+| **Dashboard Deployment** | Streamlit, Plotly |
+| **Model Storage** | joblib, pickle |
+| **Scheduling (optional)** | Airflow or Cron for hourly updates |
+
+---
+
+## 📂 Folder Structure
